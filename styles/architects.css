@@ -259,12 +259,17 @@ justify-content: center;
 
 @media screen and (max-width: 576px) {
   .navbar{
+    display: flex;
       flex-direction: column;
       object-fit: cover;
       width: 100%;
       margin: 0 auto;
   } 
-  
+  .nav-links{
+
+    display: flex;
+    flex-direction: column;
+  }
   .teams{
     flex-direction: column;
   }
@@ -314,6 +319,29 @@ justify-content: center;
     gap: 20px;
     margin: 0 auto;
     justify-items: center;
+}
+
+.features{
+
+  display: block;
+  
+  margin: 0 auto;
+  max-width: 100%;
+
+}
+
+
+#feature-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; /* Optional: Add some spacing if needed */
+}
+#batch{
+
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0px;
 }
 
 }
